@@ -1,0 +1,11 @@
+[package]
+name = "test-ydb-uint8"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.22", features = ["full"] }
+tracing-subscriber = "0.3"
+tracing = "0.1"
+#ydb = { git = "https://github.com/MikhailNazarov/ydb-rs-sdk.git", rev = "11c41c5d00534271896452c8aeb966d644ccd829" }
+ydb = { version = "0.9.2" }
